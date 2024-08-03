@@ -8,4 +8,8 @@ for (let i = 0; i < pokemonList.length; i++) {
     let pokemon = pokemonList[i];
     console.log('name:', pokemon.name);
     console.log('height:', pokemon.height);
+    document.write('<p>Name:' + pokemon.name + '| Height:' + pokemon.height + '</p>');
+    if (pokemon.height <= 0.5) {
+        document.write('Wow that is tiny!');
+    }
 }
