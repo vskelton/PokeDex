@@ -4,12 +4,12 @@ let pokemonList = [
     {name: 'Squirtle', height: '0.5', types: 'water'},
 ];
 
-for (let i = 0; i < pokemonList.length; i++) {
-    let pokemon = pokemonList[i];
+pokemonList.forEach(function(pokemon) {
+
     console.log('name:', pokemon.name);
     console.log('height:', pokemon.height);
     document.write('<p>' + pokemon.name + ' | height: ' + pokemon.height + '</p>');
     if (pokemon.height <= 0.5) {
         document.write('Wow that is tiny!');
     }
-}
+});
