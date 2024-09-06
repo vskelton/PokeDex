@@ -5,26 +5,22 @@ let pokemonRepository = (function () {
     let modalContainer = document.querySelector('#modal-container');
   
     function add(pokemon) {
-      if (
-        typeof pokemon === "object" &&
-        "name" in pokemon
-      ) {
-        pokemonList.push(pokemon);
-      } else {
-        console.log("pokemon is not correct");
-      }
+      pokemonList.push(pokemon)
     }
+
     function getAll() {
       return pokemonList;
     }
+
     function addListItem(pokemon) {
       let pokemonList = document.querySelector(".pokemon-list");
-      let listpokemon = document.createElement("li");
+      let listItem = document.createElement("li");
       let button = document.createElement("button");
       button.innerText = pokemon.name;
       button.classList.add("button-class");
-      listpokemon.appendChild(button);
-      pokemonList.appendChild(listpokemon);
+
+      listItem.appendChild(button);
+      pokemonList.appendChild(listItem);
       button.addEventListener("click", function(event) {
         showDetails(pokemon);
       });
