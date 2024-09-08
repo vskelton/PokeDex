@@ -1,2 +1,2 @@
-Sample Pokemon Application
+# Sample Pokemon Application
 
