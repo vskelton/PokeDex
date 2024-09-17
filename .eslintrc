@@ -3,7 +3,7 @@
         "es6": true,
         "browser": true
     },
-    "extends": [
+    "extends" : [
         "eslint:recommended"
     ],
     "rules": {
