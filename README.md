@@ -5,4 +5,4 @@ I was tasked with building a small web application using HTML, CSS, and JavaScri
 
 Key features include loading data from an external API, veiwing a list of Pokemon, and when clicking on a Pokemon, you will be able to view additional details on the Pokemon.
 
-Bootstrap was also implementaed to help a cleaner and usable design.
+Bootstrap was also implemented to help a cleaner and usable design.
