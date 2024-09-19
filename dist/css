@@ -1,0 +1,8 @@
+.btn {
+    background-color: blue;
+    text-transform: uppercase;
+}
+
+.list-group-item {
+    background-color: lightblue;
+}
