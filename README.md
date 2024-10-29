@@ -8,3 +8,8 @@ Key features include loading data from an external API, veiwing a list of Pokemo
 Bootstrap was also implemented to help create a cleaner and usable design.
 
 Link to the live app: https://vskelton.github.io/PokeDex
+
+### Screenshot of App
+![Pokedex screenshot] (img/pokedex.png)
+
+(img/pokedex1.png)
